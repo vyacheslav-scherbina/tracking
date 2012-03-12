@@ -1,0 +1,29 @@
+td.buttons {
+    min-width:110px;
+}
+
+
+td.name {
+    line-height:32px;
+}
+
+.name span {
+    font-size:medium;
+    vertical-align:middle;
+}
+
+td.name img, td.name span {
+    float:left;
+}
+
+td.name span {
+    margin-left:7px;
+}
+
+#ajax_alert {
+    position:fixed;
+    z-index:2060;
+    display:none;
+    top:5px;
+    left:50%;
+}

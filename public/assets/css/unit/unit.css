@@ -1,0 +1,73 @@
+img{
+    padding: 0;
+    margin: 0;
+    vertical-align: middle;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+}
+.units{
+	margin-top: 20px
+}
+.unit{
+    margin: 0 0 10px 0;
+    width:100%;
+    padding: 19px 0 19px 0
+}
+.unit_title{
+    width:250px;
+    padding: 40px 0 0 0 
+}
+.persons{
+    width: 950px;
+}
+.managers,
+.employees{
+	background-color: #DEDEDE;
+    margin: 0;
+    padding: 0;
+    min-height: 52px;
+}
+.managers{
+    margin-bottom: 10px
+}
+.manager,
+.employee{
+    float:left;
+    padding:10px
+}
+.close_btn{
+    visibility: hidden;
+    color: black;
+    float:left;
+    position: relative;
+    font-size: 16px;
+    bottom: 60px;
+    right: -2px;
+}
+.close_btn:hover{
+    color: blue;
+    text-decoration: none;
+}
+.cell{
+    display: table-cell;
+    vertical-align: top
+}
+#myModal{
+    visibility: hidden;
+    width: 300px;
+    left:62%
+}
+.modal-body{
+    margin-left: 40px;
+    padding: 10px 0 0 0 
+}
+#input_submit{
+    width:120px;
+}
+#input_unit_name{
+    width: 110px
+}

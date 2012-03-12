@@ -1,0 +1,97 @@
+.company img, .unit img, .person img, .contact img, .dropdown-units img{
+    padding-right: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+
+.company, .unit, .person, .contact, .dropdown-units{
+    font-size: 14px;
+    line-height: 18px;
+    /* font-weight: bold; */
+    margin: 0;
+    padding: 1px;
+}
+
+.dropdown-units img{
+    margin-left: -11px;
+}
+
+ul { 
+    list-style-type: none; 
+    margin: 0;
+    padding: 0; 
+    margin-bottom: 10px; 
+    min-height: 35px;
+}
+
+.sortable li {
+    padding-bottom: 5px; 
+    float: left;
+}
+
+.cell {
+    /* for future. Tururu! */
+}
+
+.modal_c {
+    display:table;
+}
+
+.modal-span3 {
+    width: 190px !important;
+}
+
+.well-span {
+    padding: 10px;
+    margin: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background-color: #DEDEDE;
+    width: 248px;
+    min-width: 170px;
+}
+
+.well-title {
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #D0D0D0;
+}
+
+.btn-circle {
+    border-radius: 50px  !important;
+    font-size: 15pt;
+}
+
+.btn-right {
+    float: right;
+}
+
+.alert {
+    z-index: 9000; /* over 9000! */
+    position: fixed;
+    top: 50px;
+    right: 20px;
+}
+
+.btn-dropdown {
+    height: 19px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+    margin-left: -3px;
+    padding-bottom: 0px;
+    padding-top: 7px;
+}
+
+.close-btn {
+    position: relative;
+    bottom: 17px;
+    right: 12px;
+    color: black;
+    float: left;
+    visibility: hidden;
+    font-size: 16px;
+    text-decoration: none !important;
+}
+
+        

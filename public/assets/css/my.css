@@ -1,0 +1,11 @@
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+.btn-circle {
+    border-radius: 50px;
+    font-size: 15pt;
+}
+form{
+	margin: 0;
+}
